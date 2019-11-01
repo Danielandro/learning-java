@@ -1,4 +1,4 @@
-# Learning Java
+# Learning Java :coffee:
 
 Mainly using the [The Java™ Tutorials](https://docs.oracle.com/javase/tutorial/java/concepts/index.html) by Oracle. This repo will contain exercises and notes based on my learnings.
 
