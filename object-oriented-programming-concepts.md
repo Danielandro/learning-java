@@ -59,15 +59,15 @@ class spot implements Dog {
   string breed = "beagle";
   boolean hungry = false;
 
-  void bark() {
+  public void bark() {
     System.out.println(name + " barks!!");
   }
 
-  void fetch() {
+  public void fetch() {
     System.out.println(name + " fetches the ball");
   }
 
-  void wagTail() {
+  public void wagTail() {
     System.out.println(name + " wags tail!!");
   }
 }
