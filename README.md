@@ -4,8 +4,6 @@ Mainly using the [The Java™ Tutorials](https://docs.oracle.com/javase/tutorial
 
 ## Topics
 
----
-
 - [ ] Object-Oriented Programming Concepts
 - [ ] Language Basics: Variables
 - [ ] Language Basics: Operators
