@@ -6,7 +6,7 @@ Mainly using the [The Java™ Tutorials](https://docs.oracle.com/javase/tutorial
 
 ---
 
-- [ ] Object-Oriented Programming Concepts
+- [x] [Object-Oriented Programming Concepts](object-oriented-programming-concepts.md)
 - [ ] Language Basics: Variables
 - [ ] Language Basics: Operators
 - [ ] Language Basics: Expressions, Statements and Blocks
