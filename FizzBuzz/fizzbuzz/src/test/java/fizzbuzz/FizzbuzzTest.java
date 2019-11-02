@@ -22,4 +22,10 @@ public class FizzbuzzTest {
     Fizzbuzz fizzbuzz = new Fizzbuzz();
     assertEquals("Buzz", fizzbuzz.converter(5));
   }
+
+  @Test
+  public void returnsFizzbuzzIfMultipleOfFifteen() {
+    Fizzbuzz fizzbuzz = new Fizzbuzz();
+    assertEquals("Fizzbuzz", fizzbuzz.converter(15));
+  }
 }
