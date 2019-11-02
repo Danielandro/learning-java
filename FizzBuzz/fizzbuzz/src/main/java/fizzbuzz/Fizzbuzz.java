@@ -5,6 +5,10 @@ public class Fizzbuzz {
     if (toConvertToFizzbuzz % 3 == 0) {
       return "Fizz";
     }
+
+    if (toConvertToFizzbuzz % 5 == 0) {
+      return "Buzz";
+    }
     return String.valueOf(toConvertToFizzbuzz);
   }
 }
