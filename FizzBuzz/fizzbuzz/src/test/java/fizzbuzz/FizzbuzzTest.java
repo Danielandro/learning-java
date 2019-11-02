@@ -10,4 +10,10 @@ public class FizzbuzzTest {
     assertEquals("1", fizzbuzz.converter(1));
     assertEquals("2", fizzbuzz.converter(2));
   }
+
+  @Test
+  public void returnsFizzIfMultipleOfThree() {
+    Fizzbuzz fizzbuzz = new Fizzbuzz();
+    assertEquals("Fizz", fizzbuzz.converter(3));
+  }
 }
