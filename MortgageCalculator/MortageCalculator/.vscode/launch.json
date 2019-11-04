@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MortgageCalculator",
+      "request": "launch",
+      "mainClass": "mortgage.MortgageCalculator",
+      "projectName": "MortageCalculator"
+    }
+  ]
+}
