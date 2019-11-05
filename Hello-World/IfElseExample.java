@@ -18,3 +18,13 @@ public class IfElseExample {
       System.out.println("Not Weird");
   }
 }
+
+// TASK:
+// Given an integer(N), perform the following conditional actions:
+
+// If N is odd, print Weird
+// If N is even and in the inclusive range of to , print Not Weird
+// If N is even and in the inclusive range of to , print Weird
+// If N is even and greater than , print Not Weird
+
+// N is between 1-100 (inclusive)
