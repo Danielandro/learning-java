@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ForLoopExample",
+      "request": "launch",
+      "mainClass": "ForLoopExample",
+      "projectName": "Hello-World"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - IfElseExample",
       "request": "launch",
       "mainClass": "IfElseExample",
