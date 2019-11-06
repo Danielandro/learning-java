@@ -8,7 +8,7 @@ public class IfElseExample {
     scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
     scanner.close();
 
-    if (N % 2 != 0)
+    if (!numIsEven(N))
       System.out.println("Weird");
     else if (N >= 2 && N <= 5)
       System.out.println("Not Weird");
@@ -16,6 +16,10 @@ public class IfElseExample {
       System.out.println("Weird");
     else
       System.out.println("Not Weird");
+  }
+
+  public static Boolean numIsEven(int num) {
+    return (num % 2 == 0);
   }
 }
 
