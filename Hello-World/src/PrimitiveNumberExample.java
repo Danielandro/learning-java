@@ -24,3 +24,29 @@ public class PrimitiveNumberExample {
     }
   }
 }
+
+/*
+ * TASK ======
+ * 
+ * Java has 8 primitive data types; char, boolean, byte, short, int, long,
+ * float, and double. For this exercise, we'll work with the primitives used to
+ * hold integer values (byte, short, int, and long):
+ * 
+ * A byte is an 8-bit signed integer (-128 to 127) A short is a 16-bit signed
+ * integer (-32k to 32k) An int is a 32-bit signed integer (-2 billion to 2
+ * billion) A long is a 64-bit signed integer (-9 quintillion to 9 quinitillion)
+ * 
+ * Given an input integer, you must determine which primitive data types are
+ * capable of properly storing that input.
+ * 
+ * Sample Input -------------- 5 -150 150000 1500000000
+ * 213333333333333333333333333333333333 -100000000000000
+ * 
+ * Sample Output -------------- -150 can be fitted in: short int long 150000 can
+ * be fitted in: int long 1500000000 can be fitted in: int long
+ * 213333333333333333333333333333333333 can't be fitted anywhere.
+ * -100000000000000 can be fitted in: long
+ * 
+ * https://www.hackerrank.com/challenges/java-datatypes/problem?h_r=next-
+ * challenge&h_v=zen
+ */
