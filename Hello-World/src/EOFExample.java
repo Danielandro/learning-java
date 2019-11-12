@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EndOfFile {
+public class EOFExample {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     short lineNumber = 1;
@@ -9,6 +9,7 @@ public class EndOfFile {
       System.out.printf("%d %s%n", lineNumber, currentLine);
       lineNumber++;
     }
+    scanner.close();
   }
 }
 
