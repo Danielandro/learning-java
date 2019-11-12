@@ -1,8 +1,10 @@
+import java.util.Scanner;
+
 public class EndOfFile {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     short lineNumber = 1;
-    while (scanner.hasNext) {
+    while (scanner.hasNext()) {
       String currentLine = scanner.nextLine();
       System.out.printf("%d %s%n", lineNumber, currentLine);
       lineNumber++;
